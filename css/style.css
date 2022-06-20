@@ -13,6 +13,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+ a {
+    text-decoration: none;
+   }
+
 ul {
     list-style: none;
 }
@@ -61,19 +65,17 @@ ul {
 .button {
     color: var(--primary-text-color);
     background-color: var(--button-color);
+    font-family: Roboto, sans-serif;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 16px;
+    line-height: 1.62;
     text-align: center;
 }
 
 .button.primery {
     background-color: var(--accent-color);
     color: var(--primary-bgc);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
+    font-family: Roboto, sans-serif;
 }
 
 .button.primery:hover,
@@ -113,6 +115,7 @@ ul {
 .button.index {
     background-color: var(--accent-color);
     color: var(--primary-bgc);
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -147,7 +150,15 @@ ul {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.title-team {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
     text-align: center;
 }
 
